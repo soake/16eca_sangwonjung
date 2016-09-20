@@ -12,6 +12,8 @@ def problem_to_solve(radius_m):
 
 
 def circular_section_stress(r_m, force_N):
+    area_m2 = r_m * r_m * math.pi
+    stress_Pa = force_N / area_m2
     return stress_Pa
 
 
