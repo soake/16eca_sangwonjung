@@ -28,4 +28,4 @@ colorbar()
 # 그래프 표시
 show()
 
-# http://matplotlib.org/example/pylab_examples/hist2d_log_dem0.html
+# http://matplotlib.org/example/pylab_examples/hist2d_log_demo.html
