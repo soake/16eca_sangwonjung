@@ -145,4 +145,11 @@ def general_eigenproblem_symetric(mat_a, mat_b):
     del mat_w[:]
     del mat_w
 
-    mat_z
+    mat_z = matrix.mul_mat(mat_l_t_inv, mat_y)
+
+    del mat_y[:]
+    del mat_y
+    return vec_w, mat_z
+
+def main():
+    
